@@ -42,6 +42,6 @@ The page is divided into two parts.
   #### Findings ####
   Some problems I've had:
   We can see that the contact part is not aligned correctly like the line on the education part. These parts previously overlapped or did not move as they should. This part has been fixed by making adaptations     for each screen and using borders to make it easier to manage the lines created.
-
+  Another problem has been being able to have the left and right side. This problem has been solved by making two columns with a grid and not mixing one part with the other.
 ### Figma link ###
 [Figma project](https://www.figma.com/file/sBZJWnLiLV3HrVwKcjhCy1/CVNOELIA?type=design&node-id=0%3A1&mode=design&t=MfX4mejM12gVohxr-1)
