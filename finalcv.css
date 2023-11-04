@@ -907,3 +907,31 @@ ul > .dos{
         text-align: center;
     }
 }
+@media screen and (min-width: 1600px) {
+    h1 {
+        width: 90%; 
+        margin: 2% auto;
+    }
+    .cont, .educa {
+        width: 100%; 
+        margin-top: 0%;
+    }
+    .exper {
+        width: 100%; 
+        margin-top: 20%;
+    }
+    .exper > h2,.hobbie > h2, .cont > h2, .educa > h2 {
+        margin: 10px auto;
+        text-align: center;
+    }
+    .expepart {
+        margin-top: 40%; 
+    }
+    .hobbie{
+        width: 100%; 
+        margin: 2% auto;
+    }
+    .cerclehobbie{
+        margin-top: -5%;
+    }
+}
