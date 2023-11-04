@@ -42,8 +42,11 @@ The page is divided into two parts.
   ### Color palette: ###
 
 · Background of **.esq**: RGBA(196, 255, 241, 0.60), which is a semi-transparent bluish-green shade.
+
 · Background color of the blue circle **.cercleblau**: A gradient ranging from #484EEC to rgba(72, 78, 236, 0.00), meaning it's a dark blue circle fading into transparency.
+
 · Background color of the purple circle **.cerclelila**: A gradient ranging from #CBAFEF to rgba(203, 175, 239, 0.00), indicating it's a purple circle fading into transparency.
+
 
 Additionally, there are various colors defined in the style rules for text and title elements, such as font color (color) for headers and other text elements.
 
@@ -51,13 +54,19 @@ Additionally, there are various colors defined in the style rules for text and t
 The code specifies the use of several fonts for the site's content:
 
 **Libre Caslon Display** is the main font used for titles and some paragraphs.
+
 **Libre Bodoni** is used for certain text elements.
+
 **Limelight** is used for a skills circle.
+
 **Inika** is used for contact details.
+
 **Libre Caslon Text** is used for education and experience details.
+
   #### Findings ####
   Some problems I've had:
   We can see that the contact part is not aligned correctly like the line on the education part. These parts previously overlapped or did not move as they should. This part has been fixed by making adaptations     for each screen and using borders to make it easier to manage the lines created.
+  
   Another problem has been being able to have the left and right side. This problem has been solved by making two columns with a grid and not mixing one part with the other.
 ### Figma link ###
 [Figma project](https://www.figma.com/file/sBZJWnLiLV3HrVwKcjhCy1/CVNOELIA?type=design&node-id=0%3A1&mode=design&t=MfX4mejM12gVohxr-1)
