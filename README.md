@@ -36,9 +36,14 @@ Divided into two parts with **grid** and other sections divided with **flexboxes
 14.**.cerclehobbie**: Contains some hobbies.
 
 ## Visual design ##
-The page is divided into two parts.
-1. On the left side there is a turquoise rectangle where we have a photo of myself and general information about me such as a small description, the skills I know for each part and the languages.
-2. On the right side we find my name and the engineering I do. There is also more specific and more explanatory information. There is the contacts part where my phone number, location, linkedin and gmail are. Next we have the education part with the three most recent things I have done or am doing. In the next part we have the experience I have in some sectors and finally some of the hobbies.
+ ### Page Design: ###
+The page is divided into two main sections: "esq" (left) and "dreta" (right).
+
+1. The left section ("esq") contains a circular profile image, "About Me" details, "Working Skills," "Languages," and "Contact Information."
+2. The right section ("dreta") contains the name, title, "Education," "Experience," "Hobbies," and other details.
+
+The CSS have been defined for responsive design, adjusting the page layout for smaller or larger screen sizes. For instance, on smaller screens, the width is adjusted, and the elements are centered.
+
   ### Color palette: ###
 
 · Background of **.esq**: RGBA(196, 255, 241, 0.60), which is a semi-transparent bluish-green shade.
