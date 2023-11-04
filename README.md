@@ -39,6 +39,22 @@ Divided into two parts with **grid** and other sections divided with **flexboxes
 The page is divided into two parts.
 1. On the left side there is a turquoise rectangle where we have a photo of myself and general information about me such as a small description, the skills I know for each part and the languages.
 2. On the right side we find my name and the engineering I do. There is also more specific and more explanatory information. There is the contacts part where my phone number, location, linkedin and gmail are. Next we have the education part with the three most recent things I have done or am doing. In the next part we have the experience I have in some sectors and finally some of the hobbies.
+  ### Color palette: ###
+
+· Background of **.esq**: RGBA(196, 255, 241, 0.60), which is a semi-transparent bluish-green shade.
+· Background color of the blue circle **.cercleblau**: A gradient ranging from #484EEC to rgba(72, 78, 236, 0.00), meaning it's a dark blue circle fading into transparency.
+· Background color of the purple circle **.cerclelila**: A gradient ranging from #CBAFEF to rgba(203, 175, 239, 0.00), indicating it's a purple circle fading into transparency.
+
+Additionally, there are various colors defined in the style rules for text and title elements, such as font color (color) for headers and other text elements.
+
+ ### Typography: ###
+The code specifies the use of several fonts for the site's content:
+
+**Libre Caslon Display** is the main font used for titles and some paragraphs.
+**Libre Bodoni** is used for certain text elements.
+**Limelight** is used for a skills circle.
+**Inika** is used for contact details.
+**Libre Caslon Text** is used for education and experience details.
   #### Findings ####
   Some problems I've had:
   We can see that the contact part is not aligned correctly like the line on the education part. These parts previously overlapped or did not move as they should. This part has been fixed by making adaptations     for each screen and using borders to make it easier to manage the lines created.
