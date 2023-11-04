@@ -1,0 +1,909 @@
+body{
+    margin:0px;
+    display:grid;
+    grid-template-columns: 500px 67%;
+}
+
+.esq{
+    justify-content: center;
+    z-index: -1;
+    background: rgba(196, 255, 241, 0.60);
+    width: 500px;
+    height: 2450px;
+}
+
+/*Principal photo*/
+.partfoto > img { 
+    border-radius: 50%;
+    border: 4px solid #69FFFF;
+    margin-left: 230px;
+    margin-top: 247px;
+    margin-right:190px;
+    margin-bottom: 164px;
+    background: url(./fotouni.jpg), lightgray 50% / cover no-repeat;
+}
+
+/*Blue circle*/
+.cercleblau {
+    position: absolute;
+    width: 693px;
+    height: 682px;
+    flex-shrink: 0;
+    border-radius: 693px;
+    margin-top: -199px;
+    margin-left: -152px;
+    overflow:hidden;
+    background: linear-gradient(180deg, #484EEC 0%, rgba(72, 78, 236, 0.94) 45.42%, rgba(72, 78, 236, 0.00) 100%);
+}
+
+/*Purple circle*/
+.cerclelila{
+    width: 292px;
+    height: 297px;
+    flex-shrink: 0;
+    border-radius: 297px;
+    margin-top: -24px;
+    margin-left: -7%;
+    overflow:hidden;
+    background: linear-gradient(270deg, #CBAFEF 0%, rgba(203, 175, 239, 0.57) 0.01%, rgba(171, 116, 242, 0.45) 71.63%, rgba(203, 175, 239, 0.00) 103.25%);
+}
+
+.cerclelila > h2{
+    position: absolute;
+    width: 272px;
+    height: 148px;
+    margin-top: 60px;
+    margin-left:-10px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Principal name*/
+h1 {
+    margin-left:30%;
+    margin-right: 0px;
+    margin-top: -25%;
+    width: 714px;
+    color: #39788B;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*About me*/
+h2 {
+    width: 237px;
+    color: #15586E;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 70%;
+}
+
+.recabout {
+    position: relative;
+    width: 421px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    margin-top: 0%;
+    margin-left: 8%;
+    background: rgba(234, 218, 255, 0.86);
+}
+
+.recabout > h3{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 8px;
+    width: 410px;
+    height: 230px;
+    flex-shrink: 0;
+    color: #144757;
+    font-family: Libre Caslon Display;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skills {
+    display: flex;
+    position: relative;
+    width: 431px;
+    height: 63px;
+    flex-shrink: 0;
+    background: rgba(253, 213, 239, 0.65);
+    margin-top: 5%;
+    margin-left: 0px;
+    align-content: center;
+}
+
+.skills > h2 {
+    margin-top: 0px;
+    width: 355px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #39788B;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Working skills*/
+.workingskills {
+    display: flex;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 2%;
+    align-content: center;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap:0px;
+}
+
+.unwork {
+    color: #080B60;
+    font-family: Libre Caslon Display;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 350px;
+    height: 35px;
+}
+
+.unwork > b {
+    color: #080B60;
+    font-family: Libre Bodoni;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 350px;
+    height: 35px;
+}
+
+.doswork {
+    color: #000;
+    font-family: Libre Caslon Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 380px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.cercleskill{
+    display:flex;
+    width: 30px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #DCC2FE;
+    font-family: Limelight;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -30px;
+}
+
+.liniaskill {
+    width: 350px;
+    height: 3px;
+    background: linear-gradient(0deg, #FFC4EB 0%, #FFC4EB 100%), linear-gradient(0deg, #FFC4EB 0%, #FFC4EB 100%), #FFC4EB;
+    display:flex;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 0px;
+}
+
+/*Languages title*/
+.languages {
+    display: flex;
+    position: relative;
+    width: 431px;
+    height: 63px;
+    flex-shrink: 0;
+    background: rgba(253, 213, 239, 0.65);
+    margin-top: 0%;
+    margin-left: 0px;
+    align-content: center;
+}
+
+.languages > h2 {
+    margin-top: 0%;
+    width: 355px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #39788B;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -15%;
+}
+
+/*Languages*/
+.language {
+    display: flex;
+    position: relative;
+    margin-top:0%;
+    margin-left: 3%;
+    align-content: flex-start;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap:0px;
+}
+
+.unlan {
+    color: #080B60;
+    font-family: Libre Bodoni;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 350px;
+    height: 35px;
+}
+
+.doslan {
+    color: #144757;
+    font-family: Libre Caslon Text;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    height: 35px;
+    margin-top: 0px;
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+
+.linialan {
+    width: 350px;
+    height: 3px;
+    background: linear-gradient(0deg, #FFC4EB 0%, #FFC4EB 100%), linear-gradient(0deg, #FFC4EB 0%, #FFC4EB 100%), #FFC4EB;
+    display:flex;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 0px;
+}
+
+/*Contacts*/
+.cont{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    width: 431px;
+    height: 63px;
+    flex-shrink: 0;
+    background: rgba(253, 213, 239, 0.52);
+}
+
+.cont > h2{
+    width: 355px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #39788B;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left:5%;
+    margin-bottom: 1%;
+    gap: 0px;
+}
+
+/*Telefon part*/
+.telefo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: #647DD7;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 3%;
+    margin-left: 0px;
+}
+
+.telefo > .telf{
+    border-radius: 49px;
+    background: url(./telfprov.png), lightgray 50% / cover no-repeat;
+}
+
+.telefo > h3{
+    width: 321px;
+    color: #144757;
+    text-align: center;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Ubication part*/
+
+.ubic{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+    gap: 0px;
+    border-style: solid;
+    border-color: #647DD7;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: -6%;
+    margin-left: 45%;
+    margin-right: 0%;
+}
+
+.ubic > .ubi{
+    border-radius: 60px;
+    background: url(./ubi2.png), lightgray 50% / cover no-repeat;
+}
+
+.ubic > h3{
+    width: 420px;
+    color: #144757;
+    font-family: Inika;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Linkedin part*/
+.linkedin{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-style: solid;
+    border-color: #647DD7;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.linkedin > .link{
+    border-radius: 47px;
+    background: url(./linkedin.png), lightgray 50% / cover no-repeat;
+}
+
+.linkedin > h3{
+    width: 265px;
+    height: 33px;
+    margin-bottom: 0%;
+    color: #144757;
+    text-align: center;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Gmail part*/
+.gmail{
+    position:relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap:40px;
+    align-items: flex-start;
+    border-style: solid;
+    border-color: #647DD7;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 3%;
+    margin-left: 13%;
+}
+
+.gmail > .imggmail{
+    background: url(./gmail.png), lightgray 50% / cover no-repeat;
+}
+
+.gmail > h3{
+    margin-bottom: 0%;
+    width: 303px;
+    color: #144757;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*Education title*/
+.educa {
+    display: flex;
+    position: relative;
+    width: 431px;
+    height: 63px;
+    flex-shrink: 0;
+    justify-content:center ;
+    background: rgba(253, 213, 239, 0.65);
+    margin-left: auto;
+    margin-right: 0%;
+    top: 1%;
+}
+
+.educa > h2{
+    margin-top:0px;
+    width: 100px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #39788B;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Education part*/
+.educapart {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-left: 10%;
+    top: 3%;
+    border-style: solid;
+    border-color: #647DD7;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.university {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap:5px;
+    margin-left: -2.5%;
+    margin-top: -0.5%;
+}
+
+.university > .cercle1{
+    width: 40px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #DCC2FE;
+    border-radius: 20px;
+    top: -1%;
+    left: -2.5%;
+}
+
+.university > h3{
+    width: 139px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #144757;
+    font-family: Libre Caslon Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.parr1 > ul{
+    width: 369px;
+    height: 156px;
+    flex-shrink: 0;
+}
+
+ul > .un{
+    color: #000;
+    font-family: Libre Caslon Display;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul > .dos{
+    color: #144757;
+    font-family: Libre Caslon Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bach {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-left: -2.5%;
+}
+
+.bach > .cercle2 {
+    width: 40px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #DCC2FE;
+    border-radius: 20px;
+}
+
+.bach > h3 {
+    width: 111px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #144757;
+    font-family: Libre Caslon Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.parr2 > ul {
+    width: 469px;
+    height: 93px;
+    flex-shrink: 0;
+}
+
+.secondary {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap:5px;
+    margin-left:5%;
+    margin-top: 5%;
+}
+
+.secondary > .cercle3 {
+    position: absolute;
+    width: 40px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #DCC2FE;
+    border-radius: 20px;
+    bottom: -0.5%;
+    left: -2.5%;
+}
+
+.secondary > h3 {
+    width: 111px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #144757;
+    font-family: Libre Caslon Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    top: 10%;
+}
+
+.parr3 > ul {
+    width: 469px;
+    height: 93px;
+    flex-shrink: 0;
+}
+
+/*Experience title*/
+.exper {
+    display: flex;
+    position: relative;
+    justify-content:flex-start ;
+    width: 431px;
+    height: 63px;
+    background: rgba(253, 213, 239, 0.65);
+    margin-top: 15%;
+    margin-bottom:5%;
+    margin-left:0px ;
+}
+
+.exper > h2{
+    margin-top:0px;
+    width: 355px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #39788B;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Experience part*/
+.expepart {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top:47%;
+}
+
+.programing{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap:0px;
+    margin-left: 20px;
+    margin-top: -500px;
+}
+
+.unexp{
+    color: #080B60;
+    font-family: Libre Caslon Text;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.unexp > b{
+    color: #000;
+    font-family: Libre Caslon Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dosexp{
+    color: #144757;
+    font-family: Libre Caslon Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboard{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap:0px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.firstaid{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap:0px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+/*Hobbies title*/
+.hobbie {
+    display: flex;
+    width: 431px;
+    height: 63px;
+    flex-shrink: 0;
+    position: relative;
+    justify-content:center ;
+    background: rgba(253, 213, 239, 0.65);
+    margin-left: 57.5%;
+    top: 0%;
+}
+
+.hobbie > h2{
+    margin-top:0px;
+    width: 355px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #39788B;
+    text-align: right;
+    font-family: Libre Caslon Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Hobbie part*/
+.cerclehobbie{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:100px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.cerclehobbie > .cerclehob{
+    display:flex;
+    width: 120px;
+    height: 121px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 50%;
+}
+
+.imgbook{
+    border-radius: 77px;
+    background: url(./libromasazul.png), lightgray 50% / cover no-repeat;
+}
+
+.imgmusic{
+    border-radius: 77px;
+    background: url(./bordecaso.png), lightgray 50% / cover no-repeat;
+}
+
+.imgswitch{
+    background: url(./switch.png), lightgray 50% / cover no-repeat;
+}
+
+.lletrahob{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 18%;
+    margin-left: -26%;
+}
+
+.lletrahob > h4{
+    width: 174px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #144757;
+    text-align: center;
+    font-family: Libre Caslon Text;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Per pantalles petites, dispositius mòbils */
+@media screen and (max-width: 768px) {
+    body {
+        grid-template-columns: 100%;
+    }
+    .esq {
+        justify-content: center;
+        z-index: -1;
+        background: rgba(196, 255, 241, 0.60);
+        width: 100%; 
+        height: auto; 
+    }
+    .partfoto > img {
+        border-radius: 50%;
+        border: 4px solid #69FFFF;
+        margin: 0 auto;
+        margin-left: 20%; 
+        max-width: 60%;
+    }
+    .cercleblau {
+        position: absolute;
+        width: 80%; /* ocupar el 80% d'ample */
+        height: 80%; /* Ajust d'altura */
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .recabout, .skills, .languages {
+        width: 90%; 
+        margin: 5% auto;
+    }
+    h3, h2, .recabout > h3, .skills > h2,.languages > h2, .unwork, .doswork, .unwork > b, .doslan, .unlan, .linialan {
+        width: 90%;
+        text-align: center;
+    }
+    h1 {
+        width: 90%; 
+        margin: 5% auto;
+    }
+    .cont > h2 {
+        margin: 10px auto;
+        text-align: center;
+    }
+    .ubic {
+        margin-top: 20px;
+        margin-left: 0% ;
+    }
+    .ubic > h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .educa > h2 {
+        margin: 10px auto;
+        text-align: center;
+    }
+    .educapart {
+        margin-top: 20px;
+    }
+    .exper{
+        width: 90%; 
+        margin-top: 30%;
+    }
+    .expepart {
+        margin-top: 80%;
+    }
+    .hobbie{
+        width: 90%; 
+        margin: 5% auto;
+    }
+    .hobbie > h2 {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    h1 {
+        width: 90%; 
+        margin: 5% auto;
+    }
+    .ubic {
+        margin-top: 20px;
+        margin-left: 0% ;
+    }
+    .ubic > h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .exper {
+        width: 90%; 
+        margin-top: 30%;
+    }
+    .expepart {
+        margin-top: 80%; 
+    }
+    .hobbie{
+        width: 90%; 
+        margin: 5% auto;
+    }
+    .hobbie > h2 {
+        margin: 10px auto;
+        text-align: center;
+    }
+}
